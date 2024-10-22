@@ -1,0 +1,41 @@
+.aside_books {
+  display: none;
+}
+
+.new_release {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--color-prim);
+  padding: 0 var(--pd-xl);
+
+  h3 {
+    font-size: var(--font-size-xl);
+    color: var(--color-accent);
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  p {
+    color: var(--color-accent);
+  }
+
+  img {
+    background-color: var(--color-accent);
+    padding: var(--pd-lg);
+    margin: var(--mg-lg) 0 var(--mg-md) 0;
+    border-radius: 8px;
+  }
+}
+.new_release_bio {
+  background-color: var(--color-second);
+  color: var(--color-accent);
+  text-align: center;
+  font-weight: 400;
+  border-radius: 8px;
+  text-transform: uppercase;
+  padding: var(--pd-sm) var(--pd-lg);
+  margin: var(--mg-lg) 0 var(--mg-lg) 0;
+}

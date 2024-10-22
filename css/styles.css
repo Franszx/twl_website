@@ -1,6 +1,11 @@
 @import "_variables.css";
 @import "footer.css";
 @import "header.css";
+@import "__new_release.css";
+@import "__bio.css";
+@import "__on_tour.css";
+@import "__books.css";
+@import "__contact.css";
 
 * {
   margin: 0;
@@ -11,7 +16,29 @@
 body {
   font-family: var(--font-main);
   background-color: var(--color-bg);
-  color: var(--color-prim);
+  color: var(--color-five);
   width: 100vw;
   height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.color-h2 {
+  background-color: var(--color-comp);
+}
+
+.arrow {
+  border: none;
+  background-color: var(--color-bg);
+}
+.btn-arrow {
+  display: flex;
+  justify-content: right;
+  margin: 0 var(--mg-md) var(--mg-md) var(--mg-md);
 }

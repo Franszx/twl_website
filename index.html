@@ -6,15 +6,19 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Home | Tristan Wede Lind</title>
   </head>
-  <body>
+  <body id="top">
     <header>
-      <h1>HEADER</h1>
-      <h1>Tristan Wede Lind</h1>
-      <h3>Web Developer and Author</h3>
-      <select name="languages" id="lang">
-        <option value="English">EN</option>
-        <option value="Danish">DA</option>
-      </select>
+      <div>
+        <img src="/twl_assets/img/lind.png" class="header-img" alt="">
+        <div>
+          <h1>Tristan Wede Lind</h1>
+          <h3>Web Developer and Author</h3>
+        </div>
+        <select name="languages" id="lang">
+          <option value="English">EN</option>
+          <option value="Danish">DA</option>
+        </select>
+      </div>
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
@@ -25,14 +29,13 @@
       </nav>
     </header>
     <main>
-      <h2>Main</h2>
       <section class="new_release">
-        <h2>new release</h2>
+        <h2 class="new_release_bio">new release</h2>
         <h3>Advanced PHP: From Zero to Hero</h3>
         <p>&copy; 2023 KEA Publishing</p>
-        <img src="/twl_assets/img/book_php.png" alt="" />
+        <img src="/twl_assets/img/book_php_preview.png" alt="" />
       </section>
-      <section class="intro">
+      <section class="bio">
         <article>
           <p>
             A Copenhagen native, Tristan Wede Lind has established himself as a leading authority in web development, captivating audiences worldwide with his profound knowledge of various technologies and methodologies. With a career spanning over two decades, Lind has honed his
@@ -47,8 +50,9 @@
             acclaim and have been translated into multiple languages, solidifying his reputation as an influential figure in the global web development community.
           </p>
           <blockquote>
-            Tristan Wede Lind's books on web development are an invaluable resource for both novices and seasoned professionals. His comprehensive yet accessible approach demystifies complex concepts, providing practical guidance that translates directly into real-world success.
-            Lind's expertise shines through in every page, making his works an indispensable addition to any developer's library. The Tech Tribune
+            <p> Tristan Wede Lind's books on web development are an invaluable resource for both novices and seasoned professionals. His comprehensive yet accessible approach demystifies complex concepts, providing practical guidance that translates directly into real-world success.
+              Lind's expertise shines through in every page, making his works an indispensable addition to any developer's library. </p>
+           <p>The Tech Tribune</p> 
           </blockquote>
           <p>
             In addition to his professional accomplishments, Lind is known for his dedication to sharing his expertise through conferences, workshops, and online platforms. As a sought-after speaker, he has enlightened audiences with his insightful talks, empowering developers to
@@ -63,151 +67,341 @@
         <img src="/twl_assets/img/book_programming.png" alt="" />
       </div>
       <section class="on_tour">
-        <h2>On tour</h2>
+        <h2 class="color-h2">On tour</h2>
         <section>
+          <img src="/twl_assets/img/tristan_640.jpg"  alt="">
           <article>
-            <p>2023, December 6-8
-              WebTech Summit
-              Keynote Speaker
-              San Francisco, CA 
-              Moscone Center</p>
+            <div>
+            <div>
+              <img src="/twl_assets/img/microphone.png" alt="">
+              <p>2023, December 6-8</p>
+            </div>
+            <p>WebTech Summit</p>
+            <p class="speaker">Keynote Speaker</p>
+            <p>San Francisco, CA (Moscone Center)</p>
+          </div>
           </article>
           <article>
-            <p>2023, December 12
-              Workshop "Responsive Design Strategies for Modern Websites"
-              Copenhagen, Denmark
-              TBD</p>
+            <div>
+            <div>
+              <img src="/twl_assets/img/microphone.png" alt="">
+              <p>2023, December 12 <p>
+            </div>
+            </p>Workshop "Responsive Design Strategies for Modern Websites"</p>
+            <p>Copenhagen, Denmark (TBD)</p>
+          </div>
           </article>
           <article>
-            <p>2024, January 15-17
-              Developer's Paradise Conference
-              Panelist
-              Miami, FL
-              Miami Convention Center</p>
+            <div>
+            <div>
+              <img src="/twl_assets/img/microphone.png" alt="">
+              <p>2024, January 15-17 </p>
+            </div>
+            <p>Developer's Paradise </p>
+            <p class="speaker">Conference Panelist</p>
+            <p>Miami, FL (Miami Convention Center)</p>
+            </div>
           </article>
           <article>
-            <p>2024, January 22-23
-              CodeCraft Workshop
-              Guest Instructor
-              New York City, NY
-              TBD</p>
+            <div>
+            <div>
+              <img src="/twl_assets/img/microphone.png" alt="">
+              <p>2024, January 22-23 </p>
+            </div>
+            <p>CodeCraft Workshop </p>
+            <p class="speaker">Guest Instructor </p>
+            <p>New York City, NY (TBD)</p>
+            </div>
           </article>
           <article>
-            <p>2024, February 5-6
-              Design & Develop Summit
-              Featured Speaker
-              Austin, TX 
-              Austin Convention Center</p>
+            <div>
+            <div>
+              <img src="/twl_assets/img/microphone.png" alt="">
+              <p>2024, February 5-6 </p>
+            </div>
+            <p>Design & Develop Summit </p>
+            <p class="speaker">Featured Speaker</p>
+            <p>Austin, TX (Austin Convention Center)</p>
+            </div>
           </article>
           <article>
-            <p>2024, February 15
-              Workshop "Advanced JavaScript Techniques"
-              Copenhagen, Denmark
-              TBD</p>
+            <div>
+            <div><img src="/twl_assets/img/microphone.png" alt=""><p>2024, February 15 </p> </div>
+            <p>Workshop "Advanced JavaScript Techniques"</p>
+            <p>Copenhagen, Denmark (TBD)</p>
+            </div>
           </article>
           <article>
-            <p>2024, March 10-12
-              WebMasters Expo
-              Keynote Speaker
-              Las Vegas, NV
-              Las Vegas Convention Center</p>
+            <div>
+            <div>
+              <img src="/twl_assets/img/microphone.png" alt=""> <p>2024, March 10-12 </p>
+            </div>
+            <p>WebMasters Expo</p>
+            <p class="speaker">Keynote Speaker</p>
+            <p>Las Vegas, NV (Las Vegas Convention Center)</p>
+            </div>
           </article>
           <article>
-            <p>2024, March 18
-              Workshop "Mastering CSS Grid Layouts"
-              Copenhagen, Denmark
-              TBD</p>
+            <div>
+            <div>
+              <img src="/twl_assets/img/microphone.png" alt="">
+              <p>2024, March 18 </p>
+            </div>
+            <p> Workshop "Mastering CSS Grid Layouts"</p>
+            <p>Copenhagen, Denmark (TBD)</p>
+            </div>
           </article>
           <article>
-            <p>2024, April 5
-              Workshop "Optimizing Performance in Web Applications
-              Copenhagen, Denmark
-              TBD</p>
+            <div>
+            <div>
+              <img src="/twl_assets/img/microphone.png" alt="">
+              <p>2024, April 5 </p>
+            </div>
+            <p>Workshop "Optimizing Performance in Web Applications </p>
+            <p>Copenhagen, Denmark (TBD)</p>
+            </div>
           </article>
           <article>
-            <p>2024, 19-20
-              Frontend Focus Conference
-              Panel Moderator
-              Seattle, WA
-              Washington State Convention Center</p>
+            <div>
+            <div>
+              <img src="/twl_assets/img/microphone.png" alt="">
+              <p>2024, 19-20  </p>
+            </div>
+            <p>Frontend Focus Conference</p>
+            <p class="speaker">Panel Moderator</p>
+            <p>Seattle, WA Washington State Convention Center</p>
+            </div>
           </article>
           <article>
-            <p>2024, May 8-9
-              Developer's Summit
-              Featured Speaker
-              Chicago, IL
-              McCormick Place</p>
+            <div>
+            <div>
+              <img src="/twl_assets/img/microphone.png" alt="">
+              <p>2024, May 8-9 </p>
+            </div>
+            <p>Developer's Summit  </p>
+            <p class="speaker">Featured Speaker</p>
+            <p>Chicago, IL McCormick Place</p>
+            </div>
           </article>
           <article>
-            <p>2024, 15-16
-              WebTech Summit
-              Keynote Speaker
-              Boston, MA
-              Hynes Convention Center
-              </p>
+            <div>
+            <div>
+              <img src="/twl_assets/img/microphone.png" alt="">
+              <p>2024, 15-16</p>
+            </div>
+            <p>WebTech Summit </p>
+            <p class="speaker">Keynote Speaker</p>
+            <p>Boston, MA Hynes Convention Center</p>
+            </div>
           </article>
           <article>
-            <p>2024, June 6
-              Workshop "Building Progressive Web Apps"
-              Copenhagen, Denmark
-              Den Sorte Diamant</p>
+            <div>
+            <div>
+              <img src="/twl_assets/img/microphone.png" alt="">
+              <p>2024, June 6 </p>
+            </div>
+            <p>Workshop "Building Progressive Web Apps" </p>
+            <p>Copenhagen, Denmark Den Sorte Diamant</p>
           </article>
           <article>
-            <p>2024, June 20
-              Workshop "Mastering React: Best Practices and Advanced Techniques"
-              Aarhus, Denmark
-              TBD</p>
+            <div>
+            <div>
+              <img src="/twl_assets/img/microphone.png" alt="">
+              <p>2024, June 20 </p>
+            </div>
+            <p>Workshop "Mastering React: Best Practices and Advanced Techniques" </p>
+            <p>Aarhus, Denmark TBD</p>
+          </div>
           </article>
         </section>
+        <div class="btn-arrow">
+          <a href="#top" class="arrow">
+            <img src="/twl_assets/img/up-arrow.png" alt="Back to top">
+          </a>
+        </div>
       </section>
       <section class="books">
-        <h2>Books</h2>
+        <h2 class="color-h2">Books</h2>
+        <section>
         <article>
-          <img src="" alt="">
-          <h4>Advanced PHP</h4>
-          <p>From Zero to Hero 
-            2023</p>
-          <p>"Advanced PHP: From Zero to Hero" is a groundbreaking book that unlocks the full potential of PHP programming. With meticulous detail, Lind guides readers through advanced concepts, empowering them to master complex topics such as object-oriented programming, database integration, and secure web application development. This comprehensive guide is a must-have for aspiring PHP developers seeking to elevate their skills to heroic heights.</p>
+          <div>
+            <img src="/twl_assets/img/book_php.png" alt="" />
+          </div>
+          <div>
+            <h4>Advanced PHP</h4>
+            <p>From Zero to Hero (2023)</p>
+            <p>
+              "Advanced PHP: From Zero to Hero" is a groundbreaking book that unlocks the full potential of PHP programming. With meticulous detail, Lind guides readers through advanced concepts, empowering them to master complex topics such as object-oriented programming, database
+              integration, and secure web application development. This comprehensive guide is a must-have for aspiring PHP developers seeking to elevate their skills to heroic heights.
+            </p>
+          </div>
+         
         </article>
         <article>
-          <img src="" alt="">
-          <h4>CSS for Developers</h4>
-          <p>A Visual Journey 
-            2022</p>
-          <p>This work offers an immersive exploration of CSS that transcends mere syntax. Through vivid illustrations and practical examples, Lind demystifies the intricacies of CSS, equipping developers with the tools to craft stunning, responsive designs. This visual masterpiece is an indispensable companion for developers seeking to elevate their CSS skills and create visually captivating websites.</p>
+          <div>
+          <img src="/twl_assets/img/book_css.png" alt="" />
+
+        </div>
+          <div>  
+            <h4>CSS for Developers</h4>
+            <p>A Visual Journey (2022)</p>
+            <p>
+              This work offers an immersive exploration of CSS that transcends mere syntax. Through vivid illustrations and practical examples, Lind demystifies the intricacies of CSS, equipping developers with the tools to craft stunning, responsive designs. This visual
+              masterpiece is an indispensable companion for developers seeking to elevate their CSS skills and create visually captivating websites.
+            </p>
+          </div>
+        
+        </article>
+        <article><div>
+          <img src="/twl_assets/img/book_js.png" alt="" />
+        </div>
+          <div>
+            <h4>Advanced JavaScript</h4>
+            <p>Frameworkless (2021)</p>
+            <p>
+              In "Advanced JavaScript: Frameworkless," Tristan Wede Lind revolutionizes the approach to JavaScript development. Breaking free from the confines of frameworks, Lind delves into the core principles and advanced techniques that empower developers to create robust,
+              scalable, and framework-independent JavaScript applications. This essential guide unveils the true potential of JavaScript, transforming developers into true masters of the language.
+            </p>
+          </div>
+          
+        </article>
+        <article><div>
+          <img src="/twl_assets/img/book_programming.png" alt="" />
+        </div>
+          <div>
+            <h4>Basic Programming</h4>
+            <p>Algorithms and Beyond (2017)</p>
+            <p>
+              A definitive guide that demystifies the fundamentals of programming. With clarity and precision, Lind introduces readers to essential concepts such as variables, loops, and conditionals, while also delving into the world of algorithms. This comprehensive resource
+              equips aspiring programmers with the foundational knowledge needed to embark on a successful coding journey.
+            </p>
+          </div>
+          
+        </article>
+        <article><div>
+          <img src="/twl_assets/img/book_js_basic.png" alt="" />
+        </div>
+          <div>
+            <h4>Basic JavaScript</h4>
+            <p>Tweaking the Web (2017)</p>
+            <p>
+              "Basic JavaScript" is a transformative book that demystifies the building blocks of JavaScript. With practical examples and step-by-step instructions, Lind empowers readers to enhance websites with interactive elements and dynamic functionalities. This essential guide
+              unlocks the power of JavaScript, enabling readers to tweak the web and create engaging user experiences.
+            </p>
+          </div>
+          
         </article>
         <article>
-          <img src="" alt="">
-          <h4>Advanced JavaScript</h4>
-          <p>Frameworkless 
-            2021</p>
-          <p>In "Advanced JavaScript: Frameworkless," Tristan Wede Lind revolutionizes the approach to JavaScript development. Breaking free from the confines of frameworks, Lind delves into the core principles and advanced techniques that empower developers to create robust, scalable, and framework-independent JavaScript applications. This essential guide unveils the true potential of JavaScript, transforming developers into true masters of the language.</p>
-        </article>
-        <article>
-          <img src="" alt="">
-          <h4></h4>
-          <p></p>
-          <p></p>
-        </article>
-        <article>
-          <img src="" alt="">
-          <h4></h4>
-          <p></p>
-          <p></p>
-        </article>
-        <article>
-          <img src="" alt="">
-          <h4></h4>
-          <p></p>
-          <p></p>
+          <div>
+          <img src="/twl_assets/img/book_front_end.png" alt="" />
+        </div>
+          <div>
+            <h4>Front-End Web Development</h4>
+            <p>A Nice Introduction (2016)</p>
+            <p>
+              Tristan Wede Lind crafts a captivating journey into the world of front-end development. Lind artfully introduces readers to HTML, CSS, and JavaScript, unraveling the secrets of creating visually stunning and interactive websites. With its approachable style and
+              comprehensive coverage, this book is the perfect starting point for aspiring front-end developers.
+            </p>
+          </div>
         </article>
       </section>
+      <div class="btn-arrow">
+        <a href="#top" class="arrow">
+          <img src="/twl_assets/img/up-arrow.png" alt="Back to top">
+        </a>
+      </div>
+      </section>
       <section class="contact">
-        <h2>Contact</h2>
+        <h2 class="color-h2">Contact</h2>
+        <section>
+          <div class="conference_img">
+            <img src="/twl_assets/img/conference.jpg" alt="">
+          </div>
+          <article class="contact_article">
+            <img src="/twl_assets/img/victoria.png" alt="">
+            <h3>Publishing</h3>
+            <address>
+              <p>Victoria Marsh (Editor)</p>
+              <p><a href="mailto:victoriamarsh@keapublishing.com">victoriamarsh@keapublishing.com</a>
+              </p>
+              <p>Phone : <a href="tel:004407975020028" title="phone publishing">(+44) 079 7502 0028</a>
+              </p>
+            </address>
+          </article>
+          <article class="contact_article">
+            <img src="/twl_assets/img/elly.png" alt="">
+            <h3>Publishing</h3>
+            <address>
+              <p>Elly Houthuijzen (Agent)</p>
+              <p><a href="mailto:elly@houthuijzen.com">elly@houthuijzen.com</a>
+              </p>
+              <p>Phone : <a href="tel:00310642821232" title="phone booking">(+31) 06-42821232</a>
+              </p>
+            </address>
+            <form>
+              <fieldset>
+                <legend>Request booking</legend>
+                <div>
+                  <label for="name">Name</label>
+                  <input type="text" id="name" required pattern="([A-Za-z-]+ )+[A-Za-z-]+" />
+                </div>
+                <div>
+                  <label for="email">E-mail address</label>
+                  <input type="email" id="email" required />
+                </div>
+                <div>
+                  <label for="enquiry">Enquiry</label>
+                </div>
+                <div>
+                  <textarea type="text" id="enquiry"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+              </fieldset>
+            </form>
+          </article>
+        </section>
+        <div class="btn-arrow">
+          <a href="#top" class="arrow">
+            <img src="/twl_assets/img/up-arrow.png" alt="Back to top">
+        </div>
       </section>
     </main>
     <footer>
       <h2>Footer</h2>
+      <section>
+        <img src="/twl_assets/img/keapublishing.png" alt="">
+        <p>KEA Publishing, inc</p>
+      </section>
+      <section class="socialLinks">
+        <img src="/twl_assets/img/twitter.png" alt="">
+        <img src="/twl_assets/img/linkedin.png" alt="">
+        <img src="/twl_assets/img/facebook.png" alt="">
+      </section>
+      <section>
+        <p>Privacy Policy</p>
+        <p>Terms of Service</p>
+        <p>Cookie Policy</p>
+      </section>
+      <section>
+        <p>
+          <a href="https://www.pexels.com/@bertellifotografia/">Person pictures by </a> Matheus Bertelli</p>
+        <p>
+          <a href="https://www.123rf.com/">Book cover pictures by </a>123RF
+        </p>
+        <p>
+          <a href="https://www.powr.io/plugins/social-media-icons/standalone">SoMe icons generated with </a>Powr.io
+        </p>
+        <p>
+          <a href="https://www.freepik.com/">Microphone icon by </a>Freepik
+        </p>
+        <p>
+          <a href="https://www.flaticon.com/authors/yogi-aprelliyanto">Up arrow icon by </a>Yogi Aprelliyanto
+        </p>
+        <p>
+          <a href="https://chat.openai.com/?model=text-davinci-002-render-sha">Texts generated by </a>ChatGPT
+        </p>
+      </section>
+      &copy; 2023 KEA Development
     </footer>
   </body>
 </html>
