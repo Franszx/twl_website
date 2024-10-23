@@ -45,3 +45,25 @@ header {
   margin: 0 0 var(--mg-md) var(--mg-xl);
   text-align: left;
 }
+
+@media (min-width: 480px) {
+  header {
+    .header-img {
+      display: block; /* Show the image on small screens */
+      height: auto;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    > div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    #lang {
+      height: 30px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+}

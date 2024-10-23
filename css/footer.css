@@ -1,3 +1,35 @@
 footer {
+  text-align: center;
   background-color: var(--color-comp);
+
+  section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: var(--mg-sm);
+
+    article:nth-child(1) {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        margin-left: var(--mg-sm);
+      }
+    }
+    article:nth-child(4) a {
+      color: var(--color-prim);
+    }
+    .social-links img {
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    article {
+      margin: var(--mg-sm) 0;
+    }
+  }
+  > p:last-child {
+    color: var(--color-prim);
+    padding-bottom: var(--pd-md);
+  }
 }
