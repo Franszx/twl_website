@@ -1,4 +1,4 @@
-.conference_img {
+.conference_img img {
   display: none;
 }
 .contact {
@@ -16,9 +16,10 @@
     object-fit: cover;
     align-self: center;
     margin-bottom: var(--mg-lg);
+    padding: var(--pd-md);
   }
   .contact_article {
-    padding: var(--pd-sm) var(--pd-lg);
+    margin: var(--mg-sm) var(--mg-lg);
     display: flex;
     flex-direction: column;
 
@@ -29,59 +30,98 @@
     address {
       line-height: 1.5;
       p {
-        color: var(--color-five);
+        color: var(--color-text);
         font-style: normal;
       }
     }
-    address:nth-last-child(1) {
-      border-bottom: 1px solid var(--color-comp);
-      p:nth-of-type(3) {
-        margin-bottom: var(--mg-lg);
-      }
-    }
+
     address:nth-last-child(2) {
       padding-bottom: var(--pd-xl);
     }
-    form {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    fieldset {
-      padding: var(--pd-xl) var(--pd-md);
-      border-radius: 10px;
-    }
-    legend {
-      font-size: var(--font-size-md);
-      padding: var(--pd-sm);
-    }
-    label {
-      font-size: var(--font-size-sm);
-      margin-bottom: var(--mg-sm);
-    }
-    input[type="text"],
-    input[type="email"],
-    textarea {
-      width: 100%;
-      padding: 8px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      font-size: 14px;
-      box-sizing: border-box;
-    }
-    textarea {
-      height: 80px;
-    }
-    button[type="submit"] {
-      width: 50%;
-      padding: var(--pd-sm); /* 10px -> 0.625rem */
-      background-color: var(--color-bg);
-      border: none;
-      border-radius: 0.25rem; /* 4px -> 0.25rem */
-      font-size: var(--font-size-sm); /* 16px -> 1rem */
-      cursor: pointer;
-      box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.4);
+  }
+  .contact_article:nth-of-type(1) {
+    border-bottom: 1px solid var(--color-second);
+    margin-bottom: var(--mg-lg);
+
+    p:nth-of-type(3) {
+      margin-bottom: var(--mg-lg);
     }
   }
+
+  fieldset {
+    padding: var(--pd-xl) var(--pd-md);
+    border-radius: 10px;
+    border: 1px solid var(--color-second);
+  }
+  legend {
+    font-size: var(--font-size-md);
+    padding: var(--pd-sm);
+  }
+  label {
+    font-size: var(--font-size-sm);
+    margin-bottom: var(--mg-sm);
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  textarea {
+    height: 80px;
+  }
+  button[type="submit"] {
+    width: 50%;
+    padding: var(--pd-sm); /* 10px -> 0.625rem */
+    background-color: var(--color-bg);
+    border: none;
+    border-radius: 0.25rem; /* 4px -> 0.25rem */
+    font-size: var(--font-size-sm); /* 16px -> 1rem */
+    cursor: pointer;
+    box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.4);
+  }
+}
+@media (min-width: 480px) {
+  .contact {
+    img {
+      padding-right: var(--pd-lg);
+    }
+    .contact_article {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  .form_section {
+    margin: var(--mg-sm) var(--mg-lg);
+
+    form {
+      display: unset;
+    }
+  }
+}
+
+@media (min-width: 810px) {
+  .conference_img img {
+    display: block;
+    max-width: 100%;
+  }
+  .contact > section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact_article {
+    border: 1px solid var(--color-second);
+    border-radius: 10px;
+    width: 70ch;
+  }
+}
+@media (min-width: 1200px) {
 }

@@ -1,41 +1,51 @@
-.aside_books {
-  display: none;
-}
-
 .new_release {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: var(--color-prim);
+  background-color: var(--color-second);
   padding: 0 var(--pd-xl);
 
   h3 {
     font-size: var(--font-size-xl);
-    color: var(--color-accent);
+    color: var(--color-comp);
     font-weight: 400;
     font-style: italic;
   }
 
   p {
-    color: var(--color-accent);
+    color: var(--color-comp);
   }
 
   img {
-    background-color: var(--color-accent);
+    background-color: var(--color-bg);
     padding: var(--pd-lg);
     margin: var(--mg-lg) 0 var(--mg-md) 0;
     border-radius: 8px;
   }
 }
 .new_release_bio {
-  background-color: var(--color-second);
-  color: var(--color-accent);
+  background-color: var(--color-accent);
+  color: var(--color-comp);
   text-align: center;
   font-weight: 400;
   border-radius: 8px;
   text-transform: uppercase;
   padding: var(--pd-sm) var(--pd-lg);
   margin: var(--mg-lg) 0 var(--mg-lg) 0;
+}
+
+@media (min-width: 480px) {
+}
+
+@media (min-width: 810px) {
+  .new_release {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1200px) {
 }

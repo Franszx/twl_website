@@ -16,7 +16,7 @@
 body {
   font-family: var(--font-main);
   background-color: var(--color-bg);
-  color: var(--color-five);
+  color: var(--color-text);
   width: 100vw;
   height: 100vh;
 }
@@ -29,8 +29,12 @@ li {
   list-style: none;
 }
 
+p {
+  line-height: 1.5;
+}
 .color-h2 {
   background-color: var(--color-comp);
+  color: var(--color-second);
 }
 
 .arrow {

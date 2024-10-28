@@ -4,22 +4,24 @@
   --font-main: "Figtree", sans-serif;
 
   --color-bg: #f2f2f2;
-  --color-prim: #395873;
-  --color-second: #d96704;
-  --color-accent: #f2e8df;
-  --color-comp: #f2ae72;
-  --color-five: #26110d;
+  --color-prim: #ebf4f6;
+  --color-second: #088395;
+  --color-accent: #37b7c3;
+  --color-comp: #071952;
+  --color-five: #fab95b;
+  --color-text: #262626;
 
   --font-size-xs: 0.5rem;
+  --fs-title: 0.7rem;
   --font-size-sm: 1rem;
   --font-size-md: 1.2rem;
   --font-size-lg: 1.5rem;
   --font-size-xl: 1.75rem;
   --font-size-subheading: 2rem;
   --font-size-mobileH1: 2.5rem;
-  --font-size-heading: 3rem;
+  --font-size-heading: 4rem;
 
-  --mg-xs: 0.1rem;
+  --mg-xs: 0.25rem;
   --mg-sm: 0.5rem;
   --mg-md: 1rem;
   --mg-lg: 1.25rem;
