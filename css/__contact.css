@@ -67,7 +67,7 @@
     width: 100%;
     padding: 8px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color-accent);
     border-radius: 4px;
     font-size: 14px;
     box-sizing: border-box;
@@ -83,7 +83,7 @@
     border-radius: 0.25rem; /* 4px -> 0.25rem */
     font-size: var(--font-size-sm); /* 16px -> 1rem */
     cursor: pointer;
-    box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0.125rem 0.3125rem var(--color-text);
   }
 }
 @media (min-width: 480px) {

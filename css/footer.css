@@ -17,10 +17,7 @@ footer {
         margin-left: var(--mg-sm);
       }
     }
-    article:nth-child(4) a {
-      color: red;
-      /* color: var(--color-prim); */
-    }
+
     .social-links img {
       border-radius: 50%;
       object-fit: cover;
